@@ -238,7 +238,7 @@ _Stealth_: Starts at 5 and acts as a penalty to opponents Wisdom to notice you. 
 
 ## **Conviction**
 
-	This life you’ve found yourself in is out right dangerous, more so given the world you live in. The lifestyle is often uncomfortable, morally questioning, and did I mention dangerous? No one takes it up without a good reason. All the better to stay a corporate cog, consuming mindless entertainment and corn-based substances. But not for you. You long for something better, something meaningful. You’ve been cursed with Conviction. 
+This life you’ve found yourself in is out right dangerous, more so given the world you live in. The lifestyle is often uncomfortable, morally questioning, and did I mention dangerous? No one takes it up without a good reason. All the better to stay a corporate cog, consuming mindless entertainment and corn-based substances. But not for you. You long for something better, something meaningful. You’ve been cursed with Conviction. 
 
 Not everyone has Conviction, especially these days, but Player Characters always do. A Conviction is your character’s answer to one of these questions:
 
@@ -268,7 +268,7 @@ Typically, characters can only have 1 point of Conviction at a time. Some Templa
 
 ## **Skills**
 
-	Skills are just a word that describes something your character knows how to do. If you can convince the GM the skill applies for a test, you take a +2 bonus.
+Skills are just a word that describes something your character knows how to do. If you can convince the GM the skill applies for a test, you take a +2 bonus.
 
 You start off with three skills, determined by your Failed Career, your level 1 Template, and 1 of your choosing. These include non-native languages. 
 
