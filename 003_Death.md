@@ -1,4 +1,3 @@
-
 ---
 title: Death and Dismemberment
 layout: home
