@@ -1,7 +1,7 @@
 ---
 title: Intro
 layout: home
-nav_order: 2
+nav_order: 6
 ---
 
 This here is a test page. 
