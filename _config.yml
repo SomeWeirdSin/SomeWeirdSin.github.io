@@ -1,8 +1,17 @@
+#Custom
 title: Some Weird Sin SRD
-description: An online SRD for the GLoG hack Some Weird Sin, updated (hopefully) in quicker time than the PDFs
+description: "An online SRD for the GLoG hack Some Weird Sin, updated (hopefully) in quicker time than the PDFs"
+email: wayspell.ttrpg@gmail.com
+twitter_username: @wayspell
+
+
+# Build Settings
 theme: just-the-docs
 
 url: https://SomeWeirdSin.github.io
 
 #aux_links:
 #  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+
+
+
