@@ -1,7 +1,7 @@
 ---
-title: Character Generation
+title: Templates
 layout: home
-nav_order: 6
+nav_order: 8
 has_children: true
 ---
 
