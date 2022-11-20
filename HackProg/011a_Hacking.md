@@ -2,7 +2,7 @@
 title: Hacking
 layout: home
 nav_order: 1
-parent: Hacking and Programming
+parent: Computer Things
 ---
 
 
