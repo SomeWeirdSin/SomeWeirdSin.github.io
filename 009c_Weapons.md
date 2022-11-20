@@ -1,4 +1,9 @@
-
+---
+title: Weapons
+layout: home
+nav_order: 3
+parent: Templates
+---
 
 
 
