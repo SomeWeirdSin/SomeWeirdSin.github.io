@@ -1,5 +1,5 @@
 ---
-title: Hacking and Programming
+title: Computer Things
 layout: home
 nav_order: 12
 has_children: True
