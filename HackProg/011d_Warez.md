@@ -1,5 +1,3 @@
-
-
 ---
 title: Warez
 layout: home
