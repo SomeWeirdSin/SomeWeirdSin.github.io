@@ -21,7 +21,7 @@ Alright, if I don’t define this list of very similar sounding, ever so slightl
 
 **Jocking** - The act a Console Jockey performs when executing Warez. Much like the job it’s named after, it has a very high risk of debilitating or life-threatening injuries.
 
-**Programming **- Writing and compiling programs. Can only be done during down time between missions.
+**Programming** - Writing and compiling programs. Can only be done during down time between missions.
 
 **Programs** - Mostly called Apps nowadays. These are compiled code used to perform legitimate operations on a computer
 
