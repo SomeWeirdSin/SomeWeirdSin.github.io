@@ -29,6 +29,9 @@ Looking to play a cyberpunk ttrpg, but unhappy with the main stream systems? Cyb
 
 Based on the GLoG system by Arnold K, Some Weird Sin (formerly "CyberGLoG") is a cyberpunk mod/hack/skin seeking to provide the simplified rules of the GLoG to a Cyberpunk setting. I then foul that up by adding in _just on more subsystem_. But it's functional, and what I use. You can use it now, without having to wait for the slow production of me putting out a PDF. Or digging through the blog. 
 
+Some Weird Sin is a game where players take on the roles of down on their luck mercenaries in a world overrun with libertarians, jaded to violence, and fetishizing technology. It’s like if your shitty boomer uncle who can’t open a PDF had a robot arm, but for the whole world. Will you look to make it a better place? Or just do enough to survive?
+
+
 Updated when new material is available. 
 
 ## Updates
