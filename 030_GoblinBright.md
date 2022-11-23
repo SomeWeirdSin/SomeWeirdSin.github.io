@@ -2,6 +2,7 @@
 title: GoblinBright
 layout: home
 nav_order: 31
+has_children: true
 ---
 
 Wanting something more cyberfantasy rather then cyberpunk, but finding Shadowrun too much of a hassle? Fair. And to that I offer: GoblinBright
