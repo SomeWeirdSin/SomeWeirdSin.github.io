@@ -5,7 +5,6 @@ parent: GoblinBright Templates
 ---
 
 
-
 # Elven Hacker
 
 Requirement: Elven template A
