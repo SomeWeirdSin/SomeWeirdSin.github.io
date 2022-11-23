@@ -1,7 +1,7 @@
 ---
 title: GoblinBright
 layout: home
-nav_order: 31
+nav_order: 301
 has_children: true
 ---
 
