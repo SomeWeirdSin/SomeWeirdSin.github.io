@@ -15,5 +15,5 @@ Thanks to [Rise Up, Comus](https://riseupcomus.blogspot.com) for feedback, proof
 
 Additional material can be found at [Wayspell's Blog](https://wayspell.blogspot.com) 
 
-Wayspell can also be reached/hassled on Twitter at [@Wayspell](htps://twitter.com/wayspell) and on Discord at Wayspell#9984. 
+Wayspell can also be reached/hassled on Twitter at [@Wayspell](https://twitter.com/wayspell) and on Discord at Wayspell#9984. 
 
