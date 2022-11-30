@@ -8,7 +8,7 @@ nav_order: 1000
 
 Written by Wayspell
 
-Based on The Goblin Laws of Gaming by Arnold Kemp at [Goblin Punch](goblinpunch.blogspot.com)
+Based on The Goblin Laws of Gaming by Arnold Kemp at [Goblin Punch](goblinpunch.blogspot.com) and is released under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 
 
 
 Thanks to [Rise Up, Comus](https://riseupcomus.blogspot.com) for feedback, proofreading, and insults
