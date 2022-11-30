@@ -8,11 +8,18 @@ parent: GoblinBright Templates
 
 # Werewolf Unionist
 
-Starting Equipment: Union Card, Union Pamphlets,  Picket sign (as club) 
+In the year 20XB (just a few short years before modern day 20XX) a lunar factory was established on the moon. While not remarkable on it's own, as the first lunar station, colony, mining, and manufacturing establishments were all decades before, what set this station - designated AMZN Lunar Prime - apart was the fact that it lacked even the most basic of automation. High stress parts, AI cores, Turing locks, and all the necessary power sources and maintenance cost money after all. Employees are replaceable. 
 
-Starting Skill: 1) European Folklore 2) Lunar Operations 3) Labor Laws
+Another notable event in the history of the AMZN Lunar Prime was it's abandonment in 20XG due to what is commonly referred to as "the Werewolves Incident." 
+
+The employees were originally abandoned in the facility, however you're one of the few who managed to glom the guts of a rattler back down the well (hop a freight shuttle back to earth). 
 
 For every Werewolf Unionist template you take, gain +1 HP. 
+
+Starting Equipment: Union Card, Stack of Union Pamphlets,  Picket sign (mmm, 1d6, 0) 
+
+Starting Skill: [1] - European Folklore [2]- Lunar Operations [3] - Labor Laws
+
 
 A. Beast Mode; Collective Action				
 
