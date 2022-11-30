@@ -7,9 +7,11 @@ parent: GoblinBright Templates
 
 # Elven Hacker
 
+While the True Elves sing the physical world into existence, your ancestors lost that ability when they descended into this world. You though, with research, practice, and a little luck, have found a way to mimic the lost ability - but for the digital domain. 
+
+While you’re referred to as a “Hacker,” you don’t really know technology any better than the average nobody. You don’t really need to, as you can simply ask devices to work for you. What’s RAM? A male sheep. And cookies are the things you eat. Why’s everyone always yelling about them?
+
 Requirement: Elven template A
-
-
 
 1. Digital Song, Perceive the Realm Digital, +2 Songs
 2. Network Step, +2 Songs
