@@ -42,11 +42,11 @@ Should you (when you) die, make one final Charisma check. On a success your pers
 
 
 1. **_Wrong Lyrics_** - Dice only return to your pool on a 1-2 for 24 hours.
-2. **_Forgotten Lyrics_ **- Cannot sing anymore songs for 1d6 rounds while remembering the proper lyrics. .
+2. **_Forgotten Lyrics_** - Cannot sing anymore songs for 1d6 rounds while remembering the proper lyrics. 
 3. **_Headache_** - You suffer 1d6 damage from severe headaches.  
 4. **_Intrusive Thought_** - A stray thought keeps distracting you. Lose a song slot for 24 hours.
 5. **_A Bit Flat_** - Whatever you just sang was horrible. Just awful. You’re now Deaf for 1d6 rounds.
-6. **_You Look Silly Doing It _**- Take 1d6 Charisma damage
+6. **_You Look Silly Doing It_**- Take 1d6 Charisma damage
 
 **Snowcrash**
 
@@ -56,36 +56,32 @@ Should you (when you) die, make one final Charisma check. On a success your pers
 2. **_Better Make it a Full Week_** - You can not speak for 1 week. 
 3. **_Bit Your Tongue_** - Well, it was more of a chomp than a bite. Mute permanently. 
 4. **_Wait, What?_** - You completely forget the words to the song you just sung, and will need to relearn it.  
-5. **_Monster of Your Own Design_ **- You’ve sung something horrible into existence. A powerful AI has been created and immediately gone rogue. And it hates you. So. Very. Much. 
+5. **_Monster of Your Own Design_**- You’ve sung something horrible into existence. A powerful AI has been created and immediately gone rogue. And it hates you. So. Very. Much. 
 6. **_Terrifying Visions_**- I don’t know how you done it, but you sung yourself back into the True World. Don’t worry though, you return 24 hours later at the same location, dripping with DMT and incoherently blathering about the terrible fractal visions you saw.  You’ll never sing again out of pure terror. 
 
-**Learning Songs**
+## Learning Songs
 
 Where Hackers can simply purchase new Warez (or trade favors), in order to learn a song you’re going to have to do some research and practice. Spend a number of days equal to the number of songs you know + 1 in study, spending 1000 Soviet Ruble  a day for beer, drugs, and broken electronics, afterwhich make a Charisma check. A successful check means a successfully learned song, with every additional 1000 Ruble spent providing a +1 to the check. 
 
-**Song::Befuddle**
+## Songs
 
-Device is unable to record new data to memory for [sum] minutes. Save negates. 
+**Song::Befuddle**<br>
+Device is unable to record new data to memory for **[sum]** minutes. Save negates. 
 
-**Song::Blind**
+**Song::Blind**<br>
+Visual sensors on a device fail for **[sum]** minutes. Save negates. 
 
-Visual sensors on a device fail for [sum] minutes. Save negates. 
+**Song::Charm**<br>
+Device treats you as an approved user for **[sum]** minutes. Save negates. 
 
-**Song::Charm**
+**Song::Deafen**<br>
+Audio sensors on a device fail for **[sum]** minutes. Save negates. 
 
-Device treats you as an approved user for [sum] minutes. Save negates. 
+**Song::Loop**<br>
+Device (usually a camera) replays the last **[dice]** rounds as output until reset. Save negates. 
 
-**Song::Deafen**
-
-Audio sensors on a device fail for [sum] minutes. Save negates. 
-
-**Song::Loop**
-
-Device (usually a camera) replays the last [dice] rounds as output until reset. Save negates. 
-
-**Song::Summon Digital Assistant** 
-
-You are able to bind an AI to your service for [Sum] days. 
+**Song::Summon Digital Assistant**<br>
+You are able to bind an AI to your service for **[Sum]** days. 
 
 The assistant acts independently, however it will always follow your commands to the best of its ability and you are able to instantly communicate with it when within 100 ft of it. It’s not exactly telepathy, but it might as well be. With concentration, you may experience any sensory data the assistant is experiencing, however this does leave you, yourself, effectively blind and deaf for the duration. Also, when within 100ft of you, the assistant can use any song you know, based on the highest dice rolled: 1-2, 1 song dice; 3-4, 2 song dice; 5-6, 3 song dice. 
 
