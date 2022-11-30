@@ -1,0 +1,5 @@
+
+1. Clarify Attacker/Defender's score is Score-10
+2. Make GoblinBright material prettier
+3. Remove nav position form template pages, so they'll automatically be alpha order
+4. Add Starting gear/skills to Goblin Bright metatypes
