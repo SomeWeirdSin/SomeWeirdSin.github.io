@@ -1,7 +1,6 @@
 ---
 title: Face
 layout: home
-nav_order: 3
 parent: Templates
 ---
 
@@ -19,10 +18,10 @@ Starting Skill: [1] - Fashion, [2] - Pop Culture, [3] - Recent News
 
 
 
-1. Nice Threads, They Know Me Here
-2. Advanced Street Cred, Pep Talk 
-3. Fanatic Groupies, Gang Uniform
-4. Really Good Liar
+A. Nice Threads, They Know Me Here <br>
+B. Advanced Street Cred, Pep Talk <br>
+C. Fanatic Groupies, Gang Uniform <br>
+D. Really Good Liar <br>
 
 **<span style="text-decoration:underline;">Nice Threads</span>**
 
