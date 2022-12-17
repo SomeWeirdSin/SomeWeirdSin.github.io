@@ -2,6 +2,7 @@
 title: Elven Hacker
 layout: home
 parent: GoblinBright Templates
+grand_parent: GoblinBright
 ---
 
 
