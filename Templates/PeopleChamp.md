@@ -1,7 +1,6 @@
 ---
 title: People's Champion
 layout: home
-nav_order: 6
 parent: Templates
 ---
 
@@ -19,13 +18,10 @@ Starting Equipment: Leather_Jacket(light, 2),  AK-47 (mr, 2d4, 6, Dmg_Cascade), 
 
 Starting Skills: 1) Farming 2) Engines 3) Firearms
 
-A. Inspiration, Turn Bourgeoisie 
-
-B. Internationale
-
-C. Neither Gods Nor Caesars
-
-D. Nothing to Lose But Your Chains
+A. Inspiration, Turn Bourgeoisie <br>
+B. Internationale <br>
+C. Neither Gods Nor Caesars <br>
+D. Nothing to Lose But Your Chains <br>
 
 **<span style="text-decoration:underline;">Inspiration</span>**
 
