@@ -2,6 +2,7 @@
 title: Werewolf Unionist
 layout: home
 parent: GoblinBright Templates
+grand_parent: GoblinBright
 ---
 
 
