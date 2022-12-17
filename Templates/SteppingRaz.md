@@ -1,7 +1,6 @@
 ---
 title: Stepping Razor
 layout: home
-nav_order: 7
 parent: Templates
 ---
 
@@ -19,10 +18,10 @@ Starting Skills: [1] - Stepping Razor, [2] - Soldier, [3] - Gang Tactics
 
 
 
-1. Combat Expert, +1 Attack
-2. Trophy
-3. Signature Weapon, +1 Attack
-4. Armed Shield, Unstoppable
+A. Combat Expert, +1 Attack <br>
+B. Trophy <br>
+C. Signature Weapon, +1 Attack <br>
+D. Armed Shield, Unstoppable <br>
 
 **<span style="text-decoration:underline;">Combat Expert</span>**
 
