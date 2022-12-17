@@ -1,7 +1,6 @@
 ---
 title: Console Jockey
 layout: home
-nav_order: 2
 parent: Templates
 ---
 
@@ -17,13 +16,10 @@ Starting Equipment: Glock_19 (lr, d6, 6), CyberDeck, 2 Cassettes
 
 Starting Skills: [1] - Coding, [2] - Cryptocurrency, [3] - Dive Bars
 
-A.     +1 processing die, + 1 cache slot, +2 Warez; Modifications
-
-B.     +1 processing die, + 1 cache slot, +2 Warez
-
-C.     +1 processing die, + 1 cache slot, +2 Warez
-
-D.     +1 processing die, + 1 cache slot, +2 Warez; Escape the Meat Prison
+A.     +1 processing die, + 1 cache slot, +2 Warez; Modifications <br>
+B.     +1 processing die, + 1 cache slot, +2 Warez <br>
+C.     +1 processing die, + 1 cache slot, +2 Warez <br>
+D.     +1 processing die, + 1 cache slot, +2 Warez; Escape the Meat Prison <br>
 
 **<span style="text-decoration:underline;">Modifications</span>**
 
