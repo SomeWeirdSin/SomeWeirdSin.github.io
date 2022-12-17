@@ -1,7 +1,6 @@
 ---
 title: Investigator
 layout: home
-nav_order: 5
 parent: Templates
 ---
 
@@ -18,10 +17,10 @@ Starting Skill: 1) Underworld, 2) Recent News 3) Corporate Affairs
 
 
 
-1. d4 Investigation Die, 2 Rhetorics
-2. d6 Investigation Die, 4 Rhetorics
-3. d8 Investigation Die, 6 Rhetorics
-4. d10 Investigation Die, 8 Rhetorics, Just One More Thing…
+A. d4 Investigation Die, 2 Rhetorics<br>
+B. d6 Investigation Die, 4 Rhetorics <br>
+C. d8 Investigation Die, 6 Rhetorics <br>
+D. d10 Investigation Die, 8 Rhetorics, Just One More Thing… <br>
 
 **<span style="text-decoration:underline;">Investigation Die</span>**
 
