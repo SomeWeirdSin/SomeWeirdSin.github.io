@@ -63,13 +63,10 @@ Once per session, by giving a grandstanding, uplifting speech, you can give a fr
 
 ### **Variant: Posadist**
 
-A. Inspiration, Talk to Dolphin
-
-B. Internationale
-
-C. Neither Gods Nor Caesars
-
-D. Nuclear Football
+A. Inspiration, Talk to Dolphin <br>
+B. Internationale <br>
+C. Neither Gods Nor Caesars<br>
+D. Nuclear Football<br>
 
 <span style="text-decoration:underline;">Talk to Dolphin</span>
 
