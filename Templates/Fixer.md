@@ -1,30 +1,10 @@
 ---
 title: Fixer
 layout: home
-nav_order: 4
 parent: Templates
 ---
 
-<!-----
 
-Yay, no errors, warnings, or alerts!
-
-Conversion time: 0.233 seconds.
-
-
-Using this Markdown file:
-
-1. Paste this output into your source file.
-2. See the notes and action items below regarding this conversion run.
-3. Check the rendered output (headings, lists, code blocks, tables) for proper
-   formatting and use a linkchecker before you publish this page.
-
-Conversion notes:
-
-* Docs to Markdown version 1.0β33
-* Sat Nov 19 2022 18:41:12 GMT-0800 (PST)
-* Source doc: 007d_Fixer
------>
 
 
 
@@ -40,10 +20,10 @@ Starting Skill: [1] - Black Market, [2] - Conspiracy, [3] - Political Dealings
 
 
 
-1. Well Connected, Well Prepared
-2. Done your homework
-3. Line of Credit, I Remember Reading About That
-4. I Know A Guy
+A. Well Connected, Well Prepared <br>
+B. Done your homework <br>
+C. Line of Credit, I Remember Reading About That <br>
+D. I Know A Guy <br>
 
 **<span style="text-decoration:underline;">Well Connected</span>**
 
