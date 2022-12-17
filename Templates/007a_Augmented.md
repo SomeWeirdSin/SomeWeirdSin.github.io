@@ -1,7 +1,6 @@
 ---
 title: Augmented
 layout: home
-nav_order: 1
 parent: Templates
 ---
 
@@ -18,10 +17,10 @@ Starting skills: [1] - Cybernetics, [2] - Repair,  [3] - Biotech
 
 
 
-1. Headspace
-2. Encryption
-3. Submerge
-4. Ghost in the Machine
+A. Headspace <br>
+B. Encryption <br>
+C. Submerge <br>
+D. Ghost in the Machine <br>
 
 **<span style="text-decoration:underline;">Headspace</span>**
 
