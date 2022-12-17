@@ -1,7 +1,6 @@
 ---
 title: Tweeker
 layout: home
-nav_order: 8
 parent: Templates
 ---
 
@@ -19,10 +18,10 @@ Starting skill: [1] - Streetwise, [2] - Chemistry, [3] - Medical Centers
 
 
 
-1. Drug Fueled Rage
-2. Twitchy, Dependant
-3. Drug Resistance
-4. Becoming the Drug, Burn Out
+A. Drug Fueled Rage <br>
+B. Twitchy, Dependant <br>
+C. Drug Resistance <br>
+D. Becoming the Drug, Burn Out <br>
 
 **<span style="text-decoration:underline;">Drug Fueled Rage</span>**
 
