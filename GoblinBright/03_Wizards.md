@@ -7,8 +7,8 @@ has_children: true
 ---
 
 # Wizard
-Starting Equipment: 
-Starting Skill: 
+Starting Equipment: Spell Book, Robes, RitualDagger(lm, 1d4, 0)  <br>
+Starting Skill: 1) History 2) Metaphysics 3) `[select an ancient language]`
 
 A: +1 MD, +1 Spell Slot, +2 Spells (1-6), Wizard Toolkit <br>
 B: +1 MD, +1 Spell Slot, +1 Spell (1-8), Book Casting <br>
@@ -33,3 +33,10 @@ Choose 1 spell you know and have frequently cast. Apply a positive mutation to t
 
 **Master of Magics** <br>
 Learn up to 6 spells from your school’s spell list, or invent an entirely new spell (GM’s discretion). 
+
+# Spells and Organization
+
+In times of antiquity, spells use to be organized into schools, to mimic the orgnaization of the Wizards that used them. In these modern days, spells are divided into spheres in relation to their effects. All part of corporate based marketing to sell magic to the modern consumer and, more importantly, the government. 
+
+Spell Casters who follow the modern tradition of the Spheres are know as Modernists, where as those adhering the tradional schools are Antiquitists. 
+
