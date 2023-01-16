@@ -6,13 +6,13 @@ parent: GoblinBright
 has_children: true
 ---
 
-# Wizard
+# Modernist Wizard
 Starting Equipment: Spell Book, Robes, RitualDagger(lm, 1d4, 0)  <br>
 Starting Skill: 1) History 2) Metaphysics 3) `[select an ancient language]`
 
-A: +1 MD, +1 Spell Slot, +2 Spells (1-6), Wizard Toolkit <br>
-B: +1 MD, +1 Spell Slot, +1 Spell (1-8), Book Casting <br>
-C: +1 MD, +1 Spell Slot +1 Spell (1-10), Friendly Spell <br>
+A: +1 MD, +1 Spell Slot, +2 Spells, Wizard Toolkit <br>
+B: +1 MD, +1 Spell Slot, +1 Spell, Book Casting <br>
+C: +1 MD, +1 Spell Slot +1 Spell, Friendly Spell <br>
 D: +1 MD, +1 Spell Slot, Master of Magics <br>
 
 
@@ -26,7 +26,7 @@ You are a spellcaster. As such, you are afforded a collection of abilities:
 
 
 **Book Casting** <br>
-You can cast from a scroll or a spellbook in a way that does not consume the scroll. This allows you to cast directly from your spellbook without loading the spell into your brain first. You do not gain the bonus MD that consuming a scroll generates. You must declare you are casting a spell from a book before initiatives are rolled for the turn.You automatically go last in the initiative round, and you automatically fumble the spell if you take any damage during the round. The spell vanishes from the scroll or book and returns the next morning.
+You can cast from a scroll or a spellbook in a way that does not consume the scroll. This allows you to cast directly from your spellbook without loading the spell into your brain first. You do not gain the bonus MD that consuming a scroll generates. You must declare you are casting a spell from a book before initiatives are rolled for the turn. You automatically go last in the initiative round, and you automatically fumble the spell if you take any damage during the round. The spell vanishes from the scroll or book and returns the next morning.
 
 **Friendly Spell** <br>
 Choose 1 spell you know and have frequently cast. Apply a positive mutation to the spell. Do not roll on the drawbacks table, even if the mutation requests that you do.
@@ -36,7 +36,9 @@ Learn up to 6 spells from your school’s spell list, or invent an entirely new 
 
 # Spells and Organization
 
-In times of antiquity, spells use to be organized into schools, to mimic the orgnaization of the Wizards that used them. In these modern days, spells are divided into spheres in relation to their effects. All part of corporate based marketing to sell magic to the modern consumer and, more importantly, the government. 
+In times of antiquity, spells use to be organized into schools, to mimic the orgnaization of the Wizards that used them. In these modern days, spells are divided into spheres in relation to their effects. All part of corporate based marketing to sell magic to the modern consumer centered around an individualized study plan and an easy course to licensure. Also its easier to sell a customized program to the government. For war purposes. 
 
-Spell Casters who follow the modern tradition of the Spheres are know as Modernists, where as those adhering the tradional schools are Antiquitists. 
+There is zero difference between the spells in a School or a Spheres - it's all marketing nonsense. The training itself is different, however. Where Schools were developed over centries with fine tuning to perfect the Art, Spheres were slapped together by Focus Groups over months to maximize profit of the Product. As such, what the Modernist gains in customization, those lose in magical synchronicity; hence the lack of cantrips.  
+
+
 
