@@ -1,9 +1,9 @@
 ---
-title: Wizards
+title: Modern Wizard
 layout: home
-nav_order: 3
-parent: GoblinBright
-has_children: true
+nav_order: 1
+parent: GoblinBright Magic
+grand_parent: GoblinBright
 ---
 
 # Modernist Wizard
