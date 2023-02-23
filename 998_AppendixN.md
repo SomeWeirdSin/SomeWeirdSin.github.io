@@ -1,6 +1,7 @@
 ---
 title: Appendix N
 layout: home
+nav_order: 999
 ---
 
 # Appendix N
@@ -27,7 +28,7 @@ Ah, yes, that mythical list of inspirations, theivery sources, and general vibes
 **Akira**, _(1988)_ <br>
 **Blade Runner**, _(1982)_ <br>
 **Blade Runner 2049**, _(2017)_ <br>
-**Equilibrum**, _(2002)_
+**Equilibrum**, _(2002)_ <br>
 **Ghost in the Shell**, _(1995)_ <br>
 **Ghost in the Shell**, _(2017)_ - Yeah, I said it. <br>
 **Hackers**, _(1995)_ <br>
