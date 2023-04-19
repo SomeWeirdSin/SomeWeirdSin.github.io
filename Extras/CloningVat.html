@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Character Generator</title>
+  </head>
+  <body>
+    <button onclick="characterGeneration()">Generate Character</button>
+    <p id="output"></p>
+    <script>
+      function characterGeneration() {
+        // Define the list of jobs and their related items
+        const jobs = [
+          { job: "Algae Cuisine Chef", item: "3 cubes of dehydrated food grade algae, Iron_Pan(lm, 0)" },
+          { job: "Algae Tank Sluice Operator", item: "Waist-high wellies, Reacing_Hook(lm, 0, Reach)" },
+          { job: "Android Repair Man", item: "Electronic Repair Kit, Welding_Torch(mm, 1, Fire)" },
+          { job: "Android-Pop Star Manager", item: "Earplugs, CattleProd(mm, 1, Electric)" }
+        ];
+
+        // Define the list of templates and their related items
+        const templates = [
+          { template: "Augmented", item: "Light_Armor (light, 2), Immunosuppressant Drugs" },
+          { template: "Console Jockey", item: "Glock_19 (lr, d6, 6), CyberDeck, 2 Cassettes" },
+          { template: "Face", item: "Taser (lr, d6, 20, Non-lethal), Blackjack (lm, d6, 0, Non-lethal), Silk Suit (₽500/+4)" },
+          { template: "Fixer", item: "Kevlar_Vest (medium, 4), Uzi (mr, 1d8, 5, One_Handed)" }
+        ];
+
+        // Generate a random index to select a job
+        const randomIndex = Math.floor(Math.random() * jobs.length);
+
+        // Get the job and item at the random index
+        const selectedJob = jobs[randomIndex].job;
+        const selectedJobItem = jobs[randomIndex].item;
+
+        //Generate a random index to select a template
+        const randomTemplate = Math.floor(Math.random() * templates.length);
+
+        // Get the template and item at the random index
+        const selectedTemplate = templates[randomTemplate].template;
+        const selectedTemplateItem = templates[randomTemplate].item;
+
+        // Log the selected character
+        const outputElement = document.getElementById("output");
+        outputElement.innerHTML = `Template: ${selectedTemplate}<br>Failed Career: ${selectedJob}<br>Inventory: ${selectedJobItem}, ${selectedTemplateItem}`;
+      }
+      
+      </script>
+  </body>
+</html>
+
+test against https://www.w3schools.com/html/tryit.asp?filename=tryhtml_script instead of waiting for page to recompile
+then move in full list. UGH.    
