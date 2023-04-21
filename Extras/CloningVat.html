@@ -7,7 +7,24 @@
     <button onclick="characterGeneration()">Generate Character</button>
     <p id="output"></p>
     <script>
+      function roll4d4() {
+        // Simulates rolling d4 four times
+        return Math.floor(Math.random() * 4) + 1 +
+               Math.floor(Math.random() * 4) + 1 +
+               Math.floor(Math.random() * 4) + 1 +
+               Math.floor(Math.random() * 4) + 1;
+      }
+      
       function characterGeneration() {
+        // Assign values to the 6 attributes. 
+        const Strength = roll4d4();
+        const Dexterity = roll4d4();
+        const Constitution = roll4d4();
+        const Intelligence = roll4d4();
+        const Wisdom = roll4d4();
+        const Charisma = roll4d4();
+        
+        
         // Define the list of jobs and their related items
         const jobs = [
           { job: "Algae Cuisine Chef", item: "3 cubes of dehydrated food grade algae, Iron_Pan(lm, 0)" },
@@ -25,24 +42,28 @@
         ];
 
         // Generate a random index to select a job
-        const randomIndex = Math.floor(Math.random() * jobs.length);
+        const jobIndex = Math.floor(Math.random() * jobs.length);
 
         // Get the job and item at the random index
-        const selectedJob = jobs[randomIndex].job;
-        const selectedJobItem = jobs[randomIndex].item;
+        const selectedJob = jobs[jobIndex].job;
+        const selectedJobItem = jobs[jobIndex].item;
 
         //Generate a random index to select a template
-        const randomTemplate = Math.floor(Math.random() * templates.length);
+        const templateIndex = Math.floor(Math.random() * templates.length);
 
         // Get the template and item at the random index
-        const selectedTemplate = templates[randomTemplate].template;
-        const selectedTemplateItem = templates[randomTemplate].item;
+        const selectedTemplate = templates[templateIndex].template;
+        const selectedTemplateItem = templates[templateIndex].item;
 
         // Log the selected character
         const outputElement = document.getElementById("output");
-        outputElement.innerHTML = `Template: ${selectedTemplate}<br>
+        outputElement.innerHTML = `Attributes <br>
+                                   Str: ${Strength}, Dex: ${Dexterity}, Con: ${Constitution}<br>
+                                   Int: ${Intelligence}, Wis: ${Wisdom}, Cha: ${Charisma}<br>
+                                   Template: ${selectedTemplate}<br>
                                    Failed Career: ${selectedJob}<br>
-                                   Inventory: ${selectedJobItem}, ${selectedTemplateItem}`;
+                                   Inventory: ${selectedJobItem}, ${selectedTemplateItem}<br>
+                                   [You still need to adjust for the bonus provided by Template A]<br>';
       }
       
       </script>
