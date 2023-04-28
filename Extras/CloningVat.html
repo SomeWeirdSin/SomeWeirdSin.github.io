@@ -31,7 +31,7 @@
           { job: "Algae Tank Sluice Operator", item: "Waist-high wellies, Reacing_Hook(lm, 0, Reach)" },
           { job: "Android Repair Man", item: "Electronic Repair Kit, Welding_Torch(mm, 1, Fire)" },
           { job: "Android-Pop Star Manager", item: "Earplugs, CattleProd(mm, 1, Electric)" },
-          { job: "Apocalyptic Street Preacher ", item: "Hollowed out bible, Sawed_Off(mr, d8, 20; Cone(15))" },
+          { job: "Apocalyptic Street Preacher", item: "Hollowed out bible, Sawed_Off(mr, d8, 20; Cone(15))" },
           { job: "Art Dealer", item: "AI made collage box, Armored_Clothing(light, 2), ₽1000" },
           { job: "Asteroid Miner", item: "Frequency resonator, Jackhammer(hm, d12, 0, Kick)" },
           { job: "Astrodock Laborer", item: "Magnetic boots, Safety_Rig(heavy, 6)" },
@@ -112,14 +112,13 @@
           { job: "Salary Man", item: "Corporate handbook (full of oaths, company songs, and standard practices), ₽1500" },
           { job: "Security Consultant", item: "Remote motion sensor, Stun_Baton(mm, d8, 0, Electric)" },
           { job: "SimLife Star", item: "Sense-record unit, Taser(lr, d6, 20, Non-lethal)" },
-          { job: "SimLife Star Impersonator", item: "Fake sense-record unit, Fake_Taser (lr, 0, 0" },
+          { job: "SimLife Star Impersonator", item: "Fake sense-record unit, Fake_Taser (lr, 0, 0)" },
           { job: "Smack Supplier for Dolphins", item: "Heroin kit (drug, lighter, spoon, needle)" },
           { job: "Solar Balloon Squatter", item: "Electronic repair kit, UV Skin protection augment" },
           { job: "SQUID Recorder", item: "SQUID magnetometer, SQUIDGun(mr, 0, 6, DataStealer)" },
           { job: "Street Surgeon", item: "Bottle of high proof liquor, CarBatteryShockPaddles(hm, 1d8, 1, Electric)" },
           { job: "Student", item: "3 textbooks, ₽25000 debt, Adderall x3" },
           { job: "Surrogate Mother to Clone Babie", item: "Third breast augmentation, CattleProd(mm, 1d6, 1, Electric)" },
-                    { job: "", item: "" },
           { job: "TacoCopter Specialist", item: "Mini UAV, Drone Control Unit augment" },
           { job: "Tong Enforcer", item: "Chinese cigarettes, LengthOfChain(mm, 1d8, 0, Reach)" },
           { job: "Trade Magnate", item: "Mysterious package, ₽25000 debt" },
@@ -132,10 +131,10 @@
 
         // Define the list of templates and their related items
         const templates = [
-          { template: "Augmented", item: "Light_Armor (light, 2), Immunosuppressant Drugs" },
-          { template: "Console Jockey", item: "Glock_19 (lr, d6, 6), CyberDeck, 2 Cassettes" },
-          { template: "Face", item: "Taser (lr, d6, 20, Non-lethal), Blackjack (lm, d6, 0, Non-lethal), Silk Suit (₽500/+4)" },
-          { template: "Fixer", item: "Kevlar_Vest (medium, 4), Uzi (mr, 1d8, 5, One_Handed)" }
+          { template: "Augmented", item: "Light_Armor (light, 2), Immunosuppressant Drugs", bonus: "Take a free Augment Package", ability: "Headspace - free Head Drive augment with +2 space" },
+          { template: "Console Jockey", item: "Glock_19 (lr, d6, 6), CyberDeck, 2 Cassettes", bonus: "+1 processing die, + 1 cache slot, +2 Warez", ability: "Modification - Should you manage to acquire another Jockey’s unbroken CyberDeck, you may attempt to scrap it for parts to add to your own." },
+          { template: "Face", item: "Taser (lr, d6, 20, Non-lethal), Blackjack (lm, d6, 0, Non-lethal), Silk Suit (₽500/+4)", bonus: "+1 Groupie", ability: "Nice Threads - Clothing acts as Armor based on price; They Know Me Here - Access to bar's secret backroom" },
+          { template: "Fixer", item: "Kevlar_Vest (medium, 4), Uzi (mr, 1d8, 5, One_Handed)", bonus: "+1 Contact", ability: "Well Connected - +2 Cha when attempting to hire hirelings; Well Prepared - Spend money to get a box to open later. Declare what's inside when you open it as long as it is equal or lesser than price paid." }
         ];
 
         // Generate a random index to select a job
@@ -160,7 +159,7 @@
                                    Template: ${selectedTemplate}<br>
                                    Failed Career: ${selectedJob}<br>
                                    Inventory: ${selectedJobItem}, ${selectedTemplateItem}<br>
-                                   [You still need to adjust for the bonus provided by Template A]<br>';
+                                   [You still need to adjust for the bonus provided by Template A]<br>` ;
       }
       
       </script>
