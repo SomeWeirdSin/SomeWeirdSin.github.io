@@ -4,7 +4,8 @@
     <title>Character Generator</title>
   </head>
   <body>
-    <button onclick="characterGeneration()">Generate Character</button>
+    <br><br>
+    <button onclick="characterGeneration()">Let's See Who's in the Cloning Tank</button>
     <p id="output"></p>
     <script>
       function roll4d4() {
@@ -16,7 +17,11 @@
       }
       
       function characterGeneration() {
+        //Generates the character and outputs the result
+        //Test at https://www.w3schools.com/html/tryit.asp?filename=tryhtml_script
+        
         // Assign values to the 6 attributes. 
+        // @Intent: Breaking them up for finer control and access, rather than array
         const Strength = roll4d4();
         const Dexterity = roll4d4();
         const Constitution = roll4d4();
@@ -129,12 +134,16 @@
           { job: "Zef Rapper", item: "Fine silk boxers, NeonUzi (mr, 1d8+1, 5, One_Handed) x2" }
         ];
 
-        // Define the list of templates and their related items
+        // Define the list of templates and their related items, bonuses, and starting abilities
         const templates = [
-          { template: "Augmented", item: "Light_Armor (light, 2), Immunosuppressant Drugs", bonus: "Take a free Augment Package", ability: "Headspace - free Head Drive augment with +2 space" },
+          { template: "Augmented", item: "Light_Armor (light, 2), Immunosuppressant Drugs", bonus: "Take a free Augment Package per template", ability: "Headspace - free Head Drive augment with +2 space" },
           { template: "Console Jockey", item: "Glock_19 (lr, d6, 6), CyberDeck, 2 Cassettes", bonus: "+1 processing die, + 1 cache slot, +2 Warez", ability: "Modification - Should you manage to acquire another Jockey’s unbroken CyberDeck, you may attempt to scrap it for parts to add to your own." },
-          { template: "Face", item: "Taser (lr, d6, 20, Non-lethal), Blackjack (lm, d6, 0, Non-lethal), Silk Suit (₽500/+4)", bonus: "+1 Groupie", ability: "Nice Threads - Clothing acts as Armor based on price; They Know Me Here - Access to bar's secret backroom" },
-          { template: "Fixer", item: "Kevlar_Vest (medium, 4), Uzi (mr, 1d8, 5, One_Handed)", bonus: "+1 Contact", ability: "Well Connected - +2 Cha when attempting to hire hirelings; Well Prepared - Spend money to get a box to open later. Declare what's inside when you open it as long as it is equal or lesser than price paid." }
+          { template: "Face", item: "Taser (lr, d6, 20, Non-lethal), Blackjack (lm, d6, 0, Non-lethal), Silk Suit (₽500/+4)", bonus: "+1 Groupie template", ability: "Nice Threads - Clothing acts as Armor based on price; They Know Me Here - Access to bar's secret backroom" },
+          { template: "Fixer", item: "Kevlar_Vest (medium, 4), Uzi (mr, 1d8, 5, One_Handed)", bonus: "+1 Contact per template", ability: "Well Connected - +2 Cha when attempting to hire hirelings; Well Prepared - Spend money to get a box to open later. Declare what's inside when you open it as long as it is equal or lesser than price paid." },
+          { template: "Investigator", item: "Trenchcoat(medium, 4, Conceal), Glock_19 (lr, d6, 6), Notepad PDA", bonus: "+1 HP per template", ability: "Investigation Die - Used to power Rhetorics, starts at d4; Rhetorics - Used to better understand the current scene." },
+          { template: "People's Champion", item: "Leather_Jacket(light, 2), AK-47 (mr, 2d4, 6, Dmg_Cascade), Communist Manifesto", bonus: "+1 Save vs Fear per template", ability: "Inspiration - Team gets a pool of bonuses fueled by inspiring communal actions; Turn Bourgeoisie - Put fear into the capitalist parasite." },
+          { template: "Stepping Razor", item: "Leather_Jacket(light, 2), Katana (mm, d8, 0, Weeb) ×2, Uzi (mr, 1d8, 5, One_Handed)", bonus: "+1 HP per template", ability: "Combat Expert - +2 to Combat Maneuver rolls; +1 Attack" },
+          { template: "Tweeker", item: "AR-15 (mr, 1d8, 6), Old_Bat(mm, d8, 0, Concussion), 1d4 doses of your drug.", bonus: "ignore +1 point of intoxication per template", ability: "Drug Fueld Rage - Do drugs, get strong." }
         ];
 
         // Generate a random index to select a job
@@ -150,21 +159,28 @@
         // Get the template and item at the random index
         const selectedTemplate = templates[templateIndex].template;
         const selectedTemplateItem = templates[templateIndex].item;
+        const selectedTemplateBonus = templates[templateIndex].bonus;
+        const selectedTemplateAbility = templates[templateIndex].ability;
 
-        // Log the selected character
+        // Generating Starting Money
+        const startMoney = (Math.floor(Math.random() * 3) + 1) * 1000;
+        
+        // Output the selected character to the screen
         const outputElement = document.getElementById("output");
         outputElement.innerHTML = `Attributes <br>
                                    Str: ${Strength}, Dex: ${Dexterity}, Con: ${Constitution}<br>
                                    Int: ${Intelligence}, Wis: ${Wisdom}, Cha: ${Charisma}<br>
-                                   Template: ${selectedTemplate}<br>
-                                   Failed Career: ${selectedJob}<br>
-                                   Inventory: ${selectedJobItem}, ${selectedTemplateItem}<br>
-                                   [You still need to adjust for the bonus provided by Template A]<br>` ;
+                                   HP: ${Constitution-4}, Attack: 11, Defense: 10, Movement: 12, Stealth: 5<br><br>
+                                   Intiative: ${Wisdom}, Save: 6 <br><br>
+                                   Template: ${selectedTemplate} (${selectedTemplateBonus})<br>
+                                   Starting Ability: ${selectedTemplateAbility}<br><br>
+                                   Failed Career: ${selectedJob}<br><br>
+                                   Inventory: ${selectedJobItem}, ${selectedTemplateItem}, Commlink, Credit Chip, 3 clips of ammo, Lower Class living space, ₽${startMoney}<br>
+                                   Total Inventory Space: ${Strength}, Quick Inventory Space: ${Math.floor(Dexterity/2)}
+                                   <br>` ;
       }
       
       </script>
   </body>
 </html>
 
-test against https://www.w3schools.com/html/tryit.asp?filename=tryhtml_script instead of waiting for page to recompile
-then move in full list. UGH.    
