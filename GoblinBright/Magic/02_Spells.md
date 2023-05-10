@@ -37,8 +37,8 @@ You hurl a magical bolt of a chosen element at an area, doing **[sum]** damage t
 **[Burn]** a dice to allow for a delay in explosion equal to the rolled value of the burnt dice in rounds. 
 
 <span style="text-decoration:underline;">**Bullet Hell**</span> <br>
-**R: 20'  T: Object  D: Until Used or Sun Crosses the Horizon**
-Inspired by popular video games, you temperarily enchant a ranged weapon to fling more bullets than it should. The next successful attack by the weapon causes **[dice]** targets (firend or foe) to be attacked using the same values (ie. rolled Attack value and damage values are the same. If their modifiers cause the attack to miss, they are uneffected). Dice used in casting are locked until the spell has been triggered. 
+**R: 20'  T: Object  D: Until Used or Sun Crosses the Horizon** <br>
+Inspired by popular video games, you temperarily enchant a ranged weapon to fling more bullets than it should. The next successful attack by the weapon causes **[dice]** targets (firend or foe) to be attacked using the same values (ie. rolled Attack value and damage values are the same. If their modifiers cause the attack to miss, they are uneffected). Dice used in casting are locked until the spell has been triggered. <br>
 
 
 ## Detection Spells
