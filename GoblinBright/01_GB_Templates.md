@@ -12,9 +12,10 @@ Wizards are listed in a seperate category, as there are many variations and inde
 
 Additionally, the following is a list of classes that may work well within the setting, made by other folks (all listed without permission): 
 
-[Chainsaw Wizard](https://modronrpgs.blogspot.com/2021/08/you-exude-cosmic-darkness-glog-class.html) 
-[Radical Catgirl Anarchist](https://crateredland.blogspot.com/2020/10/radical-catgirl-anarchist.html) 
-[The Crew](https://coinsandscrolls.blogspot.com/2018/08/osr-glog-pirate-classes.html) - With a little adjusting, could easily be "The Gang" 
-[Wrench Wench and Big Bot](https://solaris242.blogspot.com/2020/10/glog-class-wrench-wench-and-big-bot.html) 
+[Chainsaw Wizard](https://modronrpgs.blogspot.com/2021/08/you-exude-cosmic-darkness-glog-class.html) <br>
+[Radical Catgirl Anarchist](https://crateredland.blogspot.com/2020/10/radical-catgirl-anarchist.html) <br>
+[The Crew](https://coinsandscrolls.blogspot.com/2018/08/osr-glog-pirate-classes.html) - With a little adjusting, could easily be "The Gang" <br> 
+[Wrench Wench and Big Bot](https://solaris242.blogspot.com/2020/10/glog-class-wrench-wench-and-big-bot.html) <br>
+<br>
 
 More as I cross them 
