@@ -35,4 +35,6 @@ Some Weird Sin is a game where players take on the roles of down on their luck m
 Updated when new material is available. 
 
 ## Updates
+**05/25/23** GoblinBright material added, including a new spell "Bullet Hell", and an Extras page, for additional resources. 
+
 **11/20/22** Site opens. Enjoy. 
