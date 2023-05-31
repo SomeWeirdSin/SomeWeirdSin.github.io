@@ -22,34 +22,104 @@
         const JobType = [
         // A list of Jobs and their descriptions
           { title: "Assassination", description: "murder someone."},
-          { title: "Delivery", description: "take the McGuffin from Point A to Point B. Don't lose it."},
+          { title: "Delivery", description: "take the MacGuffin from Point A to Point B. Don't lose it."},
           { title: "Destruction", description: "cause heavy damage to property"},
           { title: "Distraction", description: "cause enough noise and chaos to distract attention away from the real job"},
-          { title: "Escort", description: "take Mx McGuffin from Point A to Point B. Don't lost them."},
-          { title: "Extraction", description: "get Mx McGuffin out of a place alive."},
-          { title: "Heist", description: "get in, get the McGuffin, and get out."},
+          { title: "Escort", description: "take Mx MacGuffin from Point A to Point B. Don't lost them."},
+          { title: "Extraction", description: "get Mx MacGuffin out of a place alive."},
+          { title: "Heist", description: "get in, get the MacGuffin, and get out."},
           { title: "Infiltration", description: "plant someone or something in an organization/location."},
-          { title: "Intimidate", description: "pursuade Mx McGuffin from doing a thing."},
+          { title: "Intimidate", description: "pursuade Mx MacGuffin from doing a thing."},
           { title: "Protection", description: "protect a person or location from harm."}
         ];
+        
+        const Locations = [
+        //A list of Locations for the Job to take place
+            "AI Research Facility",
+            "Aerial Drone Racing Track",
+            "Augmented Reality Park",
+            "Bionic Eye Emporium",
+            "Biohacking Clinic",
+            "Brainwave Institute",
+            "Cyber Arms Dealer",
+            "Cyber Cafe",
+            "Cyber Limb Reclamation Center",
+            "Cyber Parkour Gym",
+            "Cyber-Enhanced Martial Arts Dojo",
+            "Cyber-Enhanced Street Races",
+            "Cybernetic Body Modification Shop",
+            "Cybernetic Chop Shop",
+            "Cybernetic Enhancement Clinic",
+            "Cybernetics Emporium", 
+            "Cybersecurity Headquarters",
+            "Cyberpunk Street Art Gallery",
+            "Darknet Market",
+            "Data Haven",
+            "Dystopian City Museum",
+            "Glowing Bio-Luminescent Gardens",
+            "Glowing Street",
+            "Hacker's Hideout",
+            "Hacker's Market",
+            "Holographic Tattoo Parlor",
+            "Holographic Theater",
+            "Holosuite Arena",
+            "Hover Train Station",
+            "Hovercar Garage",
+            "Nano-Fabrication Plant",
+            "Neon District",
+            "Neural Network Hub",
+            "Noodle Bar",
+            "Rogue AI Nest",
+            "Robotics Lab",
+            "Rooftop Garden",
+            "Skydeck Observatory",
+            "Street Market",
+            "Synthetic Pet Store",
+            "Tech Hub",
+            "Tech Noir Lounge",
+            "Underground Bunker",
+            "Underground Techno Club",
+            "Underground Techno Rave",
+            "Virtual Reality Arcade",
+            "Virtual Reality Crime Simulator",
+        ];
       
+        const MacGuffins = [
+        // A list of MacGuffins
+        ];
+        
+        const People = [
+        //A list of generic people involved
+          
+        ];
+        
         const Wrenches = [
         // A list of what could go wrong. 
           { title: "another team is on the same job."},
           { title: "the Job is a set up."},
-          { title: "the McGuffin is not where it is suppose to be."}, 
+          { title: "the MacGuffin is not where it is suppose to be."}, 
           { title: "a local gang also wants the McGuffin."},
           { title: "the address is wrong."},
+          { title: "another team is here for something else."},
+          { title: "security forces are assaulting the location."},
+          { title: "the Job needs a specialized piece of equipment." },
           { title: ""}
          ];
+               
         
-        // Organizing the output variables.
-        const jobIndex = Math.floor(Math.random() * JobType.length);
+        // Generating random indexes
+        const jobIndex = randNum(JobType.length);
+        const locationIndex = randNum(Locations.length);
+        const macguffinIndex = randNum(MacGuffins.length);
+        const peopleIndex = randNum(People.length);
+        const wrenchIndex = randNum(Wrenches.length); 
+        
+        // Organizing outputs
         const jobTitle = JobType[jobIndex].title;
         const jobDescription = JobType[jobIndex].description;
         
-        const wrenchIndex = Math.floor(Math.random() * Wrenches.length);
-        const wrench = "ERROR IF/ELSE NOT TRIGGERED";
+        //Adding a Wrench to the plan
+        let wrench = "ERROR IF/ELSE NOT TRIGGERED";
         
         if (randNum(100) <= 85) {
           wrench = "all is fine.";
@@ -61,7 +131,7 @@
         
         // Output the selected job to the screen
         const outputElement = document.getElementById("output");
-        outputElement.innerHTML = `Mr. Who needs you to perfrom a/an ${jobTitle}, meaning you need to ${jobDescription}. However, ${wrench}. 
+        outputElement.innerHTML = `Mr. Who needs you to perfrom a/an ${jobTitle}, meaning you need to ${jobDescription} However, ${wrench} 
                                    <br>` ;
         
         
