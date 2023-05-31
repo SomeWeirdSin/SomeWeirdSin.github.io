@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mission Generator</title>
+  </head>
+  <body>
+    <br><br>
+    <center>
+    <button onclick="JobGeneration()">You're a Mr. Who. You pay to stay one. Not a Mr. Name.</button>
+    <p id="output"></p>
+    </center>
+    <script>
+      function randNum(inputNum) {
+        // Simulates rolling d4 four times
+        return Math.floor(Math.random() * inputNum) + 1;
+      }
+      
+      function JobGeneration() {
+        //Generates vague description of a job, to assist in getting past writer's block
+        // Test at https://www.w3schools.com/js/tryit.asp?filename=tryjs_myfirst
+        
+        const JobType = [
+        // A list of Jobs and their descriptions
+          { title: "Assassination", description: "murder someone."},
+          { title: "Delivery", description: "take the McGuffin from Point A to Point B. Don't lose it."},
+          { title: "Destruction", description: "cause heavy damage to property"},
+          { title: "Distraction", description: "cause enough noise and chaos to distract attention away from the real job"},
+          { title: "Escort", description: "take Mx McGuffin from Point A to Point B. Don't lost them."},
+          { title: "Extraction", description: "get Mx McGuffin out of a place alive."},
+          { title: "Heist", description: "get in, get the McGuffin, and get out."},
+          { title: "Infiltration", description: "plant someone or something in an organization/location."},
+          { title: "Intimidate", description: "pursuade Mx McGuffin from doing a thing."},
+          { title: "Protection", description: "protect a person or location from harm."}
+        ];
+      
+        const Wrenches = [
+        // A list of what could go wrong. 
+          { title: "another team is on the same job."},
+          { title: "the Job is a set up."},
+          { title: "the McGuffin is not where it is suppose to be."}, 
+          { title: "a local gang also wants the McGuffin."},
+          { title: "the address is wrong."},
+          { title: ""}
+         ];
+        
+        // Organizing the output variables.
+        const jobIndex = Math.floor(Math.random() * JobType.length);
+        const jobTitle = JobType[jobIndex].title;
+        const jobDescription = JobType[jobIndex].description;
+        
+        const wrenchIndex = Math.floor(Math.random() * Wrenches.length);
+        const wrench = "ERROR IF/ELSE NOT TRIGGERED";
+        
+        if (randNum(100) <= 85) {
+          wrench = "all is fine.";
+        }
+        else {
+          wrench = Wrenches[wrenchIndex].title;
+        }
+        
+        
+        // Output the selected job to the screen
+        const outputElement = document.getElementById("output");
+        outputElement.innerHTML = `Mr. Who needs you to perfrom a/an ${jobTitle}, meaning you need to ${jobDescription}. However, ${wrench}. 
+                                   <br>` ;
+        
+        
+      }
+      
+      </script>
+  </body>
+</html>
