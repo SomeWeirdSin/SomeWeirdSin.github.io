@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Mission Generator</title>
+    <title>Job Generator</title>
   </head>
   <body>
     <br><br>
@@ -11,7 +11,7 @@
     </center>
     <script>
       function randNum(inputNum) {
-        // Simulates rolling d4 four times
+        // Generates random number between 1 and inputNum inclusively
         return Math.floor(Math.random() * inputNum) + 1;
       }
       
@@ -35,53 +35,65 @@
         
         const Locations = [
         //A list of Locations for the Job to take place
-            "AI Research Facility",
-            "Aerial Drone Racing Track",
-            "Augmented Reality Park",
-            "Bionic Eye Emporium",
-            "Biohacking Clinic",
-            "Brainwave Institute",
-            "Cyber Arms Dealer",
-            "Cyber Cafe",
-            "Cyber Limb Reclamation Center",
-            "Cyber Parkour Gym",
-            "Cyber-Enhanced Martial Arts Dojo",
-            "Cyber-Enhanced Street Races",
-            "Cybernetic Body Modification Shop",
-            "Cybernetic Chop Shop",
-            "Cybernetic Enhancement Clinic",
-            "Cybernetics Emporium", 
-            "Cybersecurity Headquarters",
-            "Cyberpunk Street Art Gallery",
-            "Darknet Market",
-            "Data Haven",
-            "Dystopian City Museum",
-            "Glowing Bio-Luminescent Gardens",
-            "Glowing Street",
-            "Hacker's Hideout",
-            "Hacker's Market",
-            "Holographic Tattoo Parlor",
-            "Holographic Theater",
-            "Holosuite Arena",
-            "Hover Train Station",
-            "Hovercar Garage",
-            "Nano-Fabrication Plant",
-            "Neon District",
-            "Neural Network Hub",
-            "Noodle Bar",
-            "Rogue AI Nest",
-            "Robotics Lab",
-            "Rooftop Garden",
-            "Skydeck Observatory",
-            "Street Market",
-            "Synthetic Pet Store",
-            "Tech Hub",
-            "Tech Noir Lounge",
-            "Underground Bunker",
-            "Underground Techno Club",
-            "Underground Techno Rave",
-            "Virtual Reality Arcade",
-            "Virtual Reality Crime Simulator",
+        //Augment Related
+          "Biohacking Clinic",
+          "Cyber Arms Dealer",
+          "Cyber Limb Reclamation Center",
+          "Cybernetic Body Modification Shop",
+          "Cybernetic Implant Boutique",
+          "Cybernetic Chop Shop",
+          "Cybernetic Enhancement Clinic",
+          "Cybernetics Emporium", 
+        //Generic Places
+          "Augmented Reality Park",
+          "City Museum",
+          "Glowing Bio-Luminescent Gardens",
+          "Holographic Theater",
+          "Neon District",
+          "Patriot Burger Hologram",
+          "Pizza Place",
+          "Rooftop Garden",
+          "Skydeck Observatory",
+          "Street Art Gallery",
+          "Titty Museum",
+          "Train/Subway Station",
+          "Underground Bunker",
+          "Underground Techno Club",
+          "Underground Techno Rave",
+          "University Campus",
+          "Virtual Reality Arcade",
+         
+       //Religious
+          "Shangaist Pit",
+          "Temple of Syrinx",
+          
+       //Research FAcilities
+          "AI Research Facility",
+          "Bio-Med Research Facility",
+          "Brainwave Institute",
+          "Robotics Lab",
+        //Shops
+          "Bionic Eye Emporium",
+          "Burger Joint",
+          "Darknet Market",
+          "Dive Bar",
+          "Drone Garage",
+          "Holographic Tattoo Parlor",
+          "Noodle Bar",
+          "Street Market",
+          "Synthetic Pet Store",
+        //Sports
+          "Aerial Drone Racing Track",
+          "Cyber-Enhanced Martial Arts Dojo",
+          "Cyber-Enhanced Street Races",
+          "Gewalt Blood Sport Dome",
+        //Tech Stuff
+          "Cryptocurrency Server Farm",
+          "Cybersecurity Headquarters", 
+          "Data Haven",  
+          "Hacker's Hideout",
+          "Hacker's Market",
+          "Rogue AI Nest", 
         ];
       
         const MacGuffins = [
@@ -103,9 +115,9 @@
           { title: "another team is here for something else."},
           { title: "security forces are assaulting the location."},
           { title: "the Job needs a specialized piece of equipment." },
-          { title: ""}
+          { title: "^_^ <3"}
          ];
-               
+              
         
         // Generating random indexes
         const jobIndex = randNum(JobType.length);
