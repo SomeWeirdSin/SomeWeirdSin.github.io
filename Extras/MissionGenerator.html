@@ -16,7 +16,7 @@
       }
       
       function JobGeneration() {
-        //Generates vague description of a job, to assist in getting past writer's block
+        // Generates vague description of a job, to assist in getting past writer's block
         // Test at https://www.w3schools.com/js/tryit.asp?filename=tryjs_myfirst
         
         const JobType = [
@@ -34,7 +34,7 @@
         ];
         
         const Locations = [
-        //A list of Locations for the Job to take place
+        // A list of Locations for the Job to take place
         //Augment Related
           "Biohacking Clinic",
           "Cyber Arms Dealer",
@@ -44,41 +44,72 @@
           "Cybernetic Chop Shop",
           "Cybernetic Enhancement Clinic",
           "Cybernetics Emporium", 
+        //City Neighborhoods and Major Landmarks
+          "Gewalt Battle Dome",
+          "Morning Star Labs",
+          "Patriot Burger",
+          "Saint Iscariot's House of Eternal Servitude",
+          "Shangaist Pit",
+          "Temple of Syrinx",
+          "Trashby Hall Anarchist Collective Organized Zone",
+          "Wendy Hologram",
+          "Wormwood Pharmaceuticals",
+          "Zen Security HQ",
+          "Zen Serotonin Clinic",
         //Generic Places
+          "Airport",
           "Augmented Reality Park",
+          "Casino",
           "City Museum",
+          "CO2 Scrubber",
+          "Coffin Motel",
+          "Fission Powerplant",
+          "Gang Hangout",
           "Glowing Bio-Luminescent Gardens",
           "Holographic Theater",
           "Neon District",
+          "Parking Garage",
           "Patriot Burger Hologram",
           "Pizza Place",
+          "Protein Processing Plant",
           "Rooftop Garden",
           "Skydeck Observatory",
           "Street Art Gallery",
+          "Taxi Depot",
           "Titty Museum",
           "Train/Subway Station",
           "Underground Bunker",
           "Underground Techno Club",
           "Underground Techno Rave",
+          "Union Garrison",
           "University Campus",
+          'Vertical Farm",
           "Virtual Reality Arcade",
+          "Water Purification Station",
          
        //Religious
-          "Shangaist Pit",
-          "Temple of Syrinx",
+          "Cult of Gadget Hackwrench",
+          "Raëlism Cloning Labs",
+          "Rod of Iron Ministries",
           
-       //Research FAcilities
+          
+          
+          
+       //Research Facilities
           "AI Research Facility",
           "Bio-Med Research Facility",
           "Brainwave Institute",
           "Robotics Lab",
+          "Weapons Lab",
         //Shops
           "Bionic Eye Emporium",
           "Burger Joint",
           "Darknet Market",
           "Dive Bar",
           "Drone Garage",
+          "Gun Shop",
           "Holographic Tattoo Parlor",
+          "Pharmacy",
           "Noodle Bar",
           "Street Market",
           "Synthetic Pet Store",
@@ -86,7 +117,7 @@
           "Aerial Drone Racing Track",
           "Cyber-Enhanced Martial Arts Dojo",
           "Cyber-Enhanced Street Races",
-          "Gewalt Blood Sport Dome",
+          
         //Tech Stuff
           "Cryptocurrency Server Farm",
           "Cybersecurity Headquarters", 
@@ -101,7 +132,7 @@
         ];
         
         const People = [
-        //A list of generic people involved
+        // A list of generic people involved
           
         ];
         
@@ -130,7 +161,7 @@
         const jobTitle = JobType[jobIndex].title;
         const jobDescription = JobType[jobIndex].description;
         
-        //Adding a Wrench to the plan
+        // Adding a Wrench to the plan
         let wrench = "ERROR IF/ELSE NOT TRIGGERED";
         
         if (randNum(100) <= 85) {
