@@ -21,16 +21,16 @@
         
         const JobType = [
         // A list of Jobs and their descriptions
-          { title: "Assassination", description: "murder someone."},
-          { title: "Delivery", description: "take the MacGuffin from Point A to Point B. Don't lose it."},
-          { title: "Destruction", description: "cause heavy damage to property"},
-          { title: "Distraction", description: "cause enough noise and chaos to distract attention away from the real job"},
-          { title: "Escort", description: "take Mx MacGuffin from Point A to Point B. Don't lost them."},
-          { title: "Extraction", description: "get Mx MacGuffin out of a place alive."},
-          { title: "Heist", description: "get in, get the MacGuffin, and get out."},
-          { title: "Infiltration", description: "plant someone or something in an organization/location."},
-          { title: "Intimidate", description: "pursuade Mx MacGuffin from doing a thing."},
-          { title: "Protection", description: "protect a person or location from harm."}
+          { title: "Assassination", description: "murder someone.", target: "person" },
+          { title: "Delivery", description: "take the MacGuffin from Point A to Point B. Don't lose it.", target: "object" },
+          { title: "Destruction", description: "cause heavy damage to property", target: "object" },
+          { title: "Distraction", description: "cause enough noise and chaos to distract attention away from the real job", target: "object" },
+          { title: "Escort", description: "take Mx MacGuffin from Point A to Point B. Don't lost them.", target: "person" },
+          { title: "Extraction", description: "get Mx MacGuffin out of a place alive.", target: "person" },
+          { title: "Heist", description: "get in, get the MacGuffin, and get out.", target: "object" },
+          { title: "Infiltration", description: "plant someone or something in an organization/location.", target: "object" },
+          { title: "Intimidate", description: "persuade Mx MacGuffin from doing a thing.", target: "person" },
+          { title: "Protection", description: "protect a person or location from harm.", target: "person" }
         ];
         
         const Locations = [
@@ -83,18 +83,13 @@
           "Underground Techno Rave",
           "Union Garrison",
           "University Campus",
-          'Vertical Farm",
+          'Vertical Farm',
           "Virtual Reality Arcade",
-          "Water Purification Station",
-         
+          "Water Purification Station",         
        //Religious
           "Cult of Gadget Hackwrench",
           "Raëlism Cloning Labs",
-          "Rod of Iron Ministries",
-          
-          
-          
-          
+          "Rod of Iron Ministries",          
        //Research Facilities
           "AI Research Facility",
           "Bio-Med Research Facility",
@@ -116,8 +111,7 @@
         //Sports
           "Aerial Drone Racing Track",
           "Cyber-Enhanced Martial Arts Dojo",
-          "Cyber-Enhanced Street Races",
-          
+          "Cyber-Enhanced Street Races",          
         //Tech Stuff
           "Cryptocurrency Server Farm",
           "Cybersecurity Headquarters", 
@@ -129,26 +123,50 @@
       
         const MacGuffins = [
         // A list of MacGuffins
+          { object: "mysterious artifact", person: "high-profile scientist" },
+          { object: "encrypted data drive", person: "key witness" },
+          { object: "prototype weapon", person: "important politician" },
+          { object: "stolen artwork", person: "renowned thief" },
+          { object: "valuable antique", person: "wealthy collector" },
+          { object: "top-secret documents", person: "intelligence operative" },
+          { object: "precious gemstone", person: "famous celebrity" },
+          { object: "experimental drug", person: "medical researcher" },
+          { object: "illegal AI program", person: "rogue hacker" },
+          { object: "classified military plans", person: "double agent" },
+          { object: "hidden treasure", person: "adventurous explorer" },
+          { object: "genetic sample", person: "cloned individual" },
+          { object: "blackmail evidence", person: "corrupt executive" },
+          { object: "powerful artifact", person: "mystical sorcerer" },
+          { object: "stolen identity chip", person: "underground operative" },
+          { object: "bioengineered organism", person: "mad scientist" },
+          { object: "revolutionary invention", person: "reclusive inventor" },
+          { object: "counterfeit currency", person: "master forger" },
+          { object: "illegal cybernetic implant", person: "enhanced mercenary" },
+          { object: "time-travel device", person: "temporal fugitive" },
         ];
         
         const People = [
         // A list of generic people involved
-          
+          "",
         ];
         
         const Wrenches = [
-        // A list of what could go wrong. 
-          { title: "another team is on the same job."},
-          { title: "the Job is a set up."},
-          { title: "the MacGuffin is not where it is suppose to be."}, 
-          { title: "a local gang also wants the McGuffin."},
-          { title: "the address is wrong."},
-          { title: "another team is here for something else."},
-          { title: "security forces are assaulting the location."},
-          { title: "the Job needs a specialized piece of equipment." },
-          { title: "^_^ <3"}
-         ];
-              
+        // A list of potential complications or obstacles
+          "another team is on the same job.",
+          "the job is a set-up.",
+          "the MacGuffin is not where it is supposed to be.", 
+          "a local gang also wants the MacGuffin.",
+          "the address is wrong.",
+          "another team is here for something else.",
+          "security forces are assaulting the location.",
+          "the job needs a specialized piece of equipment.",
+          "there must be no fatalities (other than the target, if assassination).",
+          "there must be no witnesses.",
+          "the client can only pay in favors.",
+          "the client can't actually pay.", 
+          "the job must be done in an incredibly short time.",
+          "police are currently storming the location or uncomfortably close by.",
+        ];
         
         // Generating random indexes
         const jobIndex = randNum(JobType.length);
@@ -161,25 +179,31 @@
         const jobTitle = JobType[jobIndex].title;
         const jobDescription = JobType[jobIndex].description;
         
-        // Adding a Wrench to the plan
-        let wrench = "ERROR IF/ELSE NOT TRIGGERED";
+        // Setting variables
+        let wrench = "all is fine.";
+        let target = "ERROR TARGET NOT ASSIGNED";
         
         if (randNum(100) <= 85) {
           wrench = "all is fine.";
         }
         else {
-          wrench = Wrenches[wrenchIndex].title;
+          wrench = Wrenches[wrenchIndex];
         }
         
+        if (JobType[jobIndex].target == "person") {
+          target = MacGuffins[macguffinIndex].person;
+        }
+        else if (JobType[jobIndex].target == "object") {
+          target = MacGuffins[macguffinIndex].object;
+        }
+        else {
+          target = "ERROR TARGET ELSE TRIGGERED";
+        }
         
         // Output the selected job to the screen
         const outputElement = document.getElementById("output");
-        outputElement.innerHTML = `Mr. Who needs you to perfrom a/an ${jobTitle}, meaning you need to ${jobDescription} However, ${wrench} 
-                                   <br>` ;
-        
-        
+        outputElement.innerHTML = `Mr. Who needs you to perform a/an ${jobTitle}, meaning you need to ${jobDescription}. However, ${wrench}<br>The target of the job is ${target}.<br>`;
       }
-      
-      </script>
+    </script>
   </body>
 </html>
