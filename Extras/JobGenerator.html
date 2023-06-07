@@ -313,9 +313,9 @@
         
         // Output the selected job to the screen
         const outputElement = document.getElementById("output");
-        outputElement.innerHTML = `Mr. Who needs you to perform a/an ${job.title}, meaning you need to ${job.description}. However, ${wrench}<br>
-                                   The target of the job is ${target}.<br>
-                                   Location: ${Locations[randNum(Locations.length)]} <br>
+        outputElement.innerHTML = `Mr. Who needs you to perform a/an ${job.title}, meaning you need to ${job.description}. However, ${wrench}<br><br>
+                                   The target of the job is ${target}.<br><br>
+                                   Location: ${Locations[randNum(Locations.length)]} <br><br>
                                    Some people who might be involved are: ${People[randNum(People.length)]}, ${People[randNum(People.length)]}, ${People[randNum(People.length)]}, and ${People[randNum(People.length)]}`;
       }
     </script>
