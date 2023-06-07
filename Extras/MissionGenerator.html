@@ -13,7 +13,7 @@
     <script>
       function randNum(inputNum) {
         // Generates random number between 1 and inputNum inclusively
-        return Math.floor(Math.random() * inputNum) + 1;
+        return Math.floor(Math.random() * inputNum);
       }
       
       function JobGeneration() {
@@ -26,7 +26,7 @@
           { title: "Delivery", description: "take the MacGuffin from Point A to Point B. Don't lose it.", target: "object" },
           { title: "Destruction", description: "cause heavy damage to property", target: "object" },
           { title: "Distraction", description: "cause enough noise and chaos to distract attention away from the real job", target: "object" },
-          { title: "Escort", description: "take Mx MacGuffin from Point A to Point B. Don't lost them.", target: "person" },
+          { title: "Escort", description: "take Mx MacGuffin from Point A to Point B. Don't lose them.", target: "person" },
           { title: "Extraction", description: "get Mx MacGuffin out of a place alive.", target: "person" },
           { title: "Heist", description: "get in, get the MacGuffin, and get out.", target: "object" },
           { title: "Infiltration", description: "plant someone or something in an organization/location.", target: "object" },
@@ -176,6 +176,12 @@
         
         const People = [
         // A list of generic people involved
+          "1337 Hacker",
+          "16-Bit Gunslinger",
+          "404 Error Ghost",
+          "7th Dimensional Tourist",
+          "8-Bit Deity",
+          "9999 VR Gamer",
           "AI Whisperer",
           "Android Companion",
           "Biohacker Experimenter",
@@ -258,12 +264,6 @@
           "Yakuza Enforcer",
           "Zeitgeist Prophet",
           "Zero-G Smuggler",
-          "1337 Hacker",
-          "16-Bit Gunslinger",
-          "404 Error Ghost",
-          "7th Dimensional Tourist",
-          "8-Bit Deity",
-          "9999 VR Gamer",
         ];
         
         const Wrenches = [
@@ -284,37 +284,28 @@
           "police are currently storming the location or uncomfortably close by.",
         ];
         
-        // Generating random indexes
-        //const jobIndex = randNum(JobType.length);
-        //const locationIndex = randNum(Locations.length);
-       // const macguffinIndex = randNum(MacGuffins.length);
-       // const peopleIndex = randNum(People.length);
-        //const wrenchIndex = randNum(Wrenches.length); 
-               
-        // Organizing outputs
-        //const jobTitle = JobType[jobIndex].title;
-        //const jobDescription = JobType[jobIndex].description;
-        const job = JobType[randNum(JobType.length-1)];
+        // Job choosing
+        const job = JobType[randNum(JobType.length)];
         
         // Setting variables
         let wrench = "WRENCH IF-ELSE NOT ENTERED";
         let target = "ERROR TARGET NOT ASSIGNED";
         
+        // Determining if a wrench is involved
         if (randNum(100) <= 85) {
           wrench = "all is fine.";
         }
         else {
           //wrench = Wrenches[wrenchIndex];
-          wrench = Wrenches[randNum(Wrenches.length-1)];
+          wrench = Wrenches[randNum(Wrenches.length)];
         }
         
+       // Randomly determining a MacGufin, based on if the Job Type is for a person or object and assigning it as a target
         if (job.target == "person") {
-          //target = MacGuffins[macguffinIndex].person;
-          target = MacGuffins[randNum(MacGuffins.length-1)].person;
+          target = MacGuffins[randNum(MacGuffins.length)].person;
         }
         else if (job.target == "object") {
-          //target = MacGuffins[macguffinIndex].object;
-          target = MacGuffins[randNum(MacGuffins.length-1)].object;
+          target = MacGuffins[randNum(MacGuffins.length)].object;
         }
         else {
           target = "ERROR TARGET ELSE TRIGGERED";
@@ -324,8 +315,8 @@
         const outputElement = document.getElementById("output");
         outputElement.innerHTML = `Mr. Who needs you to perform a/an ${job.title}, meaning you need to ${job.description}. However, ${wrench}<br>
                                    The target of the job is ${target}.<br>
-                                   Location: ${Locations[randNum(Locations.length-1)]} <br>
-                                   Some people who might be involved are: ${People[randNum(People.length-1)]}, ${People[randNum(People.length-1)]}, ${People[randNum(People.length-1)]}, and ${People[randNum(People.length-1)]}`;
+                                   Location: ${Locations[randNum(Locations.length)]} <br>
+                                   Some people who might be involved are: ${People[randNum(People.length)]}, ${People[randNum(People.length)]}, ${People[randNum(People.length)]}, and ${People[randNum(People.length)]}`;
       }
     </script>
   </body>
