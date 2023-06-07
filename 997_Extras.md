@@ -7,6 +7,10 @@ layout: home
 
 It's not pretty, and the floor is a little sticky, but [it can be found here](https://someweirdsin.github.io/Extras/CloningVat.html) <br>
 
+# Job Generator
+
+The Job Generator [can be found here](https://someweirdsin.github.io/Extras/JobGenerator.html). A little something to nudge the old thinkbox into motion as you stare at a blank page. <br>
+
 # Sound Track
 
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0rk9Tyxfnd3oSXeSCUhF6S?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
@@ -20,8 +24,6 @@ It's not pretty, and the floor is a little sticky, but [it can be found here](ht
 [Taqwacore](https://open.spotify.com/playlist/32mtpAYDwrn0kFP28HBcdk?si=96dd584a5f374b80) - I am far from the target audience on this one, but I appreciate the rebellious attitude laced throughout the genre. <br>
 
 
-# Job Generator
 
-In progress...
 
 
