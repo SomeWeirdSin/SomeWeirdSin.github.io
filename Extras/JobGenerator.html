@@ -12,7 +12,7 @@
     </center>
     <script>
       function randNum(inputNum) {
-        // Generates random number between 1 and inputNum inclusively
+        // Generates random number between 0 and inputNum inclusively
         return Math.floor(Math.random() * inputNum);
       }
       
@@ -22,16 +22,16 @@
         
         const JobType = [
         // A list of Jobs and their descriptions
-          { title: "Assassination", description: "murder someone.", target: "person" },
-          { title: "Delivery", description: "take the MacGuffin from Point A to Point B. Don't lose it.", target: "object" },
-          { title: "Destruction", description: "cause heavy damage to property", target: "object" },
-          { title: "Distraction", description: "cause enough noise and chaos to distract attention away from the real job", target: "object" },
-          { title: "Escort", description: "take Mx MacGuffin from Point A to Point B. Don't lose them.", target: "person" },
-          { title: "Extraction", description: "get Mx MacGuffin out of a place alive.", target: "person" },
-          { title: "Heist", description: "get in, get the MacGuffin, and get out.", target: "object" },
-          { title: "Infiltration", description: "plant someone or something in an organization/location.", target: "object" },
-          { title: "Intimidate", description: "persuade Mx MacGuffin from doing a thing.", target: "person" },
-          { title: "Protection", description: "protect a person or location from harm.", target: "person" }
+          { title: "an Assassination", description: "murder someone.", target: "person" },
+          { title: "a Delivery", description: "take the MacGuffin from Point A to Point B. Don't lose it.", target: "object" },
+          { title: "a Destruction", description: "cause heavy damage to property.", target: "object" },
+          { title: "a Distraction", description: "cause enough noise and chaos to distract attention away from the real job.", target: "object" },
+          { title: "an Escort", description: "take Mx MacGuffin from Point A to Point B. Don't lose them.", target: "person" },
+          { title: "an Extraction", description: "get Mx MacGuffin out of a place alive.", target: "person" },
+          { title: "a Heist", description: "get in, get the MacGuffin, and get out.", target: "object" },
+          { title: "an Infiltration", description: "plant someone or something in an organization/location.", target: "object" },
+          { title: "an Intimidate", description: "persuade Mx MacGuffin from doing a thing.", target: "person" },
+          { title: "a Protection", description: "protect a person or location from harm.", target: "person" }
         ];
         
         const Locations = [
@@ -84,7 +84,7 @@
           "Underground Techno Rave",
           "Union Garrison",
           "University Campus",
-          'Vertical Farm',
+          "Vertical Farm",
           "Virtual Reality Arcade",
           "Water Purification Station",         
        //Religious
@@ -313,7 +313,7 @@
         
         // Output the selected job to the screen
         const outputElement = document.getElementById("output");
-        outputElement.innerHTML = `Mr. Who needs you to perform a/an ${job.title}, meaning you need to ${job.description}. However, ${wrench}<br><br>
+        outputElement.innerHTML = `Mr. Who needs you to perform ${job.title}, meaning you need to ${job.description} However, ${wrench}<br><br>
                                    The target of the job is ${target}.<br><br>
                                    Location: ${Locations[randNum(Locations.length)]} <br><br>
                                    Some people who might be involved are: ${People[randNum(People.length)]}, ${People[randNum(People.length)]}, ${People[randNum(People.length)]}, and ${People[randNum(People.length)]}`;
