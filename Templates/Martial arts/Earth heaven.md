@@ -13,7 +13,7 @@ While in this form, every time you're the target of a missile attack and reduce 
 2. **Throw the Ox-Cart** (3) <br>
 Target is knocked back [level] x 5 feet in a direction of your choice. If the target comes into contact with a solid surface, they smash through it and take [remaining 5”]d4 damage.
 3. **Laughing Tiger**  (6) <br>
-Your unarmed attacks are increased to light melee. You can cut ropes and shit with your attacks, as your empty hands are considered weapons. For every 3 [add] your hands count as +1 weapons.
+Your unarmed attacks are increased to light melee (1d6). You can cut ropes and shit with your attacks, as your empty hands are considered weapons. For every additional level, increase the damage (1d6>1d8>1d10>1d12) 
 4. **Wary Rabbit Attitude** (5) <br>
 While in this form, you always succeed initiative checks. For 2 [add] while taking this form, you are also never surprised during an ambush.
 5. **Ascending Dragon Prana** (6) <br>
