@@ -2,6 +2,7 @@
 title: Martial Artist
 layout: home
 parent: Templates
+has_children: true
 ---
 
 ## **Martial Artist**
