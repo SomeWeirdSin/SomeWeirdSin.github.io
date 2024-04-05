@@ -1,5 +1,5 @@
 ---
-title: EarthHeaven
+title: Earth and Heaven
 layout: home
 parent: Martial Artist
 grand_parent: Templates
