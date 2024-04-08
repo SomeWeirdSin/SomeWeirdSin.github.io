@@ -123,6 +123,6 @@ _Are some of these a little brutal? Maybe. But this is also a world of body augm
 
 ## **Interesting Scars**
 
-Twisted marks of flesh revealing a violent past. It provides a +2 bonus to Charisma while interacting with people who appreciate that sort of thing. 
+Twisted marks of flesh revealing a violent past. It provides a -2 bonus to Charisma while interacting with people who appreciate that sort of thing. 
 
 
