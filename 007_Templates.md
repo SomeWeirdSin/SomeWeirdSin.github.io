@@ -42,6 +42,7 @@ These are templates with at least a little weirdness to them. Certain attributes
 
 
 * Investigator
+* Martial Artist
 * People’s Champion
 
 Templates are listed in alphabetical order, but separated here for convenience. 
