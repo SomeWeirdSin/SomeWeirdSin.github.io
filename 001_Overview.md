@@ -191,7 +191,7 @@ Alternatively, anytime you gain a new level at 5th or higher, you've the option 
 
 Almost everything is based on rolling a d20 against a target number. If you roll equal to or under the target number, you succeed (“meeting is beating”). Roll over it, and you’ve failed. 1 is always success, 20 is always failure. “Roll under” and “Test” will be used throughout the text as a short-hand. 
 
-Situational bonuses and penalties are usually +/- 2 or 4, applied to the target number.
+Situational bonuses and penalties are usually -/+ 2 or 4, applied to the result of the roll. Targer number is always the stat tested.
 
 Contested checks are also resolved in this manner. The player makes their check with an adjustment based on how far the opponent's stat is from 10. 
 
@@ -258,17 +258,17 @@ Conviction Points can be spent to get a bonus on a d20 roll.
 
 
 
-* If the roll is related to a Conviction: +8
-* If the roll is unrelated to a Conviction: +4
+* If the roll is related to a Conviction: -8
+* If the roll is unrelated to a Conviction: -4
 
-You can only receive the large bonus if the roll is related to your Conviction. If your Conviction is “Find my brother” and the action leads you closer to finding said wayward brother, take a +8. However, if you need some help dealing with an Everglades methgator, you’ll get the +4. 
+You can only receive the large bonus if the roll is related to your Conviction. If your Conviction is “Find my brother” and the action leads you closer to finding said wayward brother, take a -8. However, if you need some help dealing with an Everglades methgator, you’ll get the -4. 
 
 Typically, characters can only have 1 point of Conviction at a time. Some Templates may modify this. 
 
 
 ## **Skills**
 
-Skills are just a word that describes something your character knows how to do. If you can convince the GM the skill applies for a test, you take a +2 bonus.
+Skills are just a word that describes something your character knows how to do. If you can convince the GM the skill applies for a test, you take a -2 bonus.
 
 You start off with three skills, determined by your Failed Career, your level 1 Template, and 1 of your choosing. These include non-native languages. 
 
