@@ -35,6 +35,8 @@ Some Weird Sin is a game where players take on the roles of down on their luck m
 Updated when new material is available. 
 
 ## Updates
+**04/07/24** Did I have references to the Martial Artist class in a few spots? Yes. Did I forget to actually put in the class so it was available? Also yes. Fixed that, as well as a few typos. 
+
 **06/06/23** Added a Job Generator as well. Available on the Extras page. 
 
 **05/25/23** GoblinBright material added, including a new spell "Bullet Hell", and an Extras page, for additional resources. 
