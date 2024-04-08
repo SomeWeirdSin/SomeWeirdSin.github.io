@@ -6,7 +6,7 @@ nav_order: 2
 
 # **Overview**
 
-CyberGLoG is based on Arnold K.’s “Goblin Laws of Gaming” homebrew system, also known as the GLOG. 
+Some Weird Sin is based on Arnold K.’s “Goblin Laws of Gaming” homebrew system, also known as the GLOG. 
 
 Original game rules and content can be found at goblinpunch.blogspot.com
 
