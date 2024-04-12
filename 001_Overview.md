@@ -191,7 +191,7 @@ Alternatively, anytime you gain a new level at 5th or higher, you've the option 
 
 Almost everything is based on rolling a d20 against a target number. If you roll equal to or under the target number, you succeed (“meeting is beating”). Roll over it, and you’ve failed. 1 is always success, 20 is always failure. “Roll under” and “Test” will be used throughout the text as a short-hand. 
 
-Situational bonuses and penalties are usually -/+ 2 or 4, applied to the result of the roll. Targer number is always the stat tested.
+Situational bonuses and penalties are usually -/+ 2 or 4, applied to the target number, typically the value of the stat tested.
 
 Contested checks are also resolved in this manner. The player makes their check with an adjustment based on how far the opponent's stat is from 10. 
 
