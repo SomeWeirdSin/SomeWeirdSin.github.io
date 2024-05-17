@@ -7,7 +7,7 @@
   <body>
     <br><br>
     <center>
-    <button onclick="JobGeneration()">You're a Mr. Who. You pay to stay one. Not a Mr. Name.</button>
+    <button onclick="WeaponGeneration()">Let's see what's in stock</button>
     <p id="output"></p>
     </center>
     <script>
@@ -33,21 +33,21 @@
         const MeleeAugment = [
         //A list of features
           //Remeber to add cost to this
-          { description: "Cheap - This item is of poor construction and/or shoddy material. Only has one equipment condition check, leaving it to break on a critical failure/success. Critical failure range is increased by one (20 becomes 19-20). Critical success decreases by one (1-2 becomes 1, 1 becomes 0). On the upside, it's much cheaper.", cost:  },
-          { description: "Collapsible - Is able to be broken down into multiple parts that appear dissimilar or as other mundane objects, in order to fool anyone performing a search." }, 
-          { description: "Depleted Uranium - The world of Some Weird Sin has a lot of this stuff. Too much. Some dumb bastard as plated the hitting part of a melee weapon with it. Leaves traces of radioactivity on targets." },
-          { description: "Electrified - The hitting end of this weapon has an electrical current running through it. Enjoy +1d6 damage." },
-          { description: "Exploding - Creates an explosion forcing everything in a 15' radius (3x3 squares) to Save vs Explosion, or take 1d6 damage. Consumes current item on usage." },
-          { description: "Flaming - Part of this weapon literally catches on fire, doing an extra 1d6 Fire damage. Probably scares the hell out of people not expecting it." },
-          { description: "Flexible - Made to whip and bend. Ignores bonus from Shields." },
-          { description: "Heavy Weight - Takes an additional Inventory slot." },
-          { description: "High Quality - The item is of masterful construction and of premium material. Might even have an ornate design carved into it. Has 5 equipment condition checks. Critical failure range is reduced by 1. Critical success range is increased by 1. You're gonna drop some serious nuevoYen on it, however." },
-          { description: "Light Weight - takes up one less Inventory slot. Down to 1/2 slot." },
-          { description: "Mono-filament - The Vorpal of cyberpunk. Removes a limb from the target on a Critical Hit. Removes a limb from the user on a Critical Miss. (1d6: 1.Right Arm, 2. Left Arm, 3.Right Leg, 4.Left Leg, 5. Head, 6. Torso)" },
-          { description: "Poison - Has poison injector within blade, with supply reservoir in the handle large enough for one dosage." },
-          { description: "Ranged - Whether the weapon is designed to be thrown, or has a ballistic spring loaded blade/head attached to a button for a sudden and violent release, this feature allows for a single, ranged attack, requiring a retrieval for the item to be used again." },
-          { description: "Rend - Weapon is designed to damage the armor as it attacks. On top of the applied damage, Armor takes an equipment check." },
-          { description: "Thrusters - Micro rockets on the backside of the hitting part push it forward just a little bit harder. +1 to damage." }
+          { name: "Cheap", modifier: , description: "Cheap - This item is of poor construction and/or shoddy material. Only has one equipment condition check, leaving it to break on a critical failure/success. Critical failure range is increased by one (20 becomes 19-20). Critical success decreases by one (1-2 becomes 1, 1 becomes 0). On the upside, it's much cheaper." },
+          { name: "Collapsible", modifier: , description: "Collapsible - Is able to be broken down into multiple parts that appear dissimilar or as other mundane objects, in order to fool anyone performing a search." }, 
+          { name: "Depleted Uranium", modifier: , description: "Depleted Uranium - The world of Some Weird Sin has a lot of this stuff. Too much. Some dumb bastard as plated the hitting part of a melee weapon with it. Leaves traces of radioactivity on targets." },
+          { name: "Electrified", modifier: , description: "Electrified - The hitting end of this weapon has an electrical current running through it. Enjoy +1d6 damage." },
+          { name: "Exploding", modifier: , description: "Exploding - Creates an explosion forcing everything in a 15' radius (3x3 squares) to Save vs Explosion, or take 1d6 damage. Consumes current item on usage." },
+          { name: "Flaming", modifier: , description: "Flaming - Part of this weapon literally catches on fire, doing an extra 1d6 Fire damage. Probably scares the hell out of people not expecting it." },
+          { name: "Flexible", modifier: , description: "Flexible - Made to whip and bend. Ignores bonus from Shields." },
+          { name: "Heavy Weight", modifier: , description: "Heavy Weight - Takes an additional Inventory slot." },
+          { name: "High Quality", modifier: , description: "High Quality - The item is of masterful construction and of premium material. Might even have an ornate design carved into it. Has 5 equipment condition checks. Critical failure range is reduced by 1. Critical success range is increased by 1. You're gonna drop some serious nuevoYen on it, however." },
+          { name: "Light Weight", modifier: , description: "Light Weight - takes up one less Inventory slot. Down to 1/2 slot." },
+          { name: "Mono-Filament", modifier: , description: "Mono-filament - The Vorpal of cyberpunk. Removes a limb from the target on a Critical Hit. Removes a limb from the user on a Critical Miss. (1d6: 1.Right Arm, 2. Left Arm, 3.Right Leg, 4.Left Leg, 5. Head, 6. Torso)" },
+          { name: "Poison", modifier: , description: "Poison - Has poison injector within blade, with supply reservoir in the handle large enough for one dosage." },
+          { name: "Ranged", modifier: , description: "Ranged - Whether the weapon is designed to be thrown, or has a ballistic spring loaded blade/head attached to a button for a sudden and violent release, this feature allows for a single, ranged attack, requiring a retrieval for the item to be used again." },
+          { name: "Rend", modifier: , description: "Rend - Weapon is designed to damage the armor as it attacks. On top of the applied damage, Armor takes an equipment check." },
+          { name: "Thrusters", modifier: , description: "Thrusters - Micro rockets on the backside of the hitting part push it forward just a little bit harder. +1 to damage." }
         ];
       }
     </script>
