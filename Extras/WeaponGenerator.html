@@ -22,6 +22,7 @@
         
         const WeaponType = [
         //A list of weapon types
+          //add damage to these
           { category: "melee", size: "light", cost: 100, features: 1 },
           { category: "melee", size: "medium", cost: 400, features: 2 },
           { category: "melee", size: "heavy", cost: 650, features: 3 },
@@ -35,8 +36,8 @@
           //Remeber to add cost to this
           { name: "Cheap", costmod: .5, description: "Cheap - This item is of poor construction and/or shoddy material. Only has one equipment condition check, leaving it to break on a critical failure/success. Critical failure range is increased by one (20 becomes 19-20). Critical success decreases by one (1-2 becomes 1, 1 becomes 0). On the upside, it's much cheaper." },
           { name: "Collapsible", costmod: 1.5, description: "Collapsible - Is able to be broken down into multiple parts that appear dissimilar or as other mundane objects, in order to fool anyone performing a search." }, 
-          { name: "Depleted Uranium", costmod: , description: "Depleted Uranium - The world of Some Weird Sin has a lot of this stuff. Too much. Some dumb bastard as plated the hitting part of a melee weapon with it. Leaves traces of radioactivity on targets." },
-          { name: "Electrified", costmod: , description: "Electrified - The hitting end of this weapon has an electrical current running through it. Enjoy +1d6 damage." },
+          { name: "Depleted Uranium", costmod: 2, description: "Depleted Uranium - The world of Some Weird Sin has a lot of this stuff. Too much. Some dumb bastard as plated the hitting part of a melee weapon with it. It does an additional +1d6 and leaves traces of radioactivity on targets." },
+          { name: "Electrified", costmod: 2, description: "Electrified - The hitting end of this weapon has an electrical current running through it. Enjoy +1d6 damage." },
           { name: "Exploding", costmod: , description: "Exploding - Creates an explosion forcing everything in a 15' radius (3x3 squares) to Save vs Explosion, or take 1d6 damage. Consumes current item on usage." },
           { name: "Flaming", costmod: , description: "Flaming - Part of this weapon literally catches on fire, doing an extra 1d6 Fire damage. Probably scares the hell out of people not expecting it." },
           { name: "Flexible", costmod: , description: "Flexible - Made to whip and bend. Gains +2 Attack." },
